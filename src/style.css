@@ -143,8 +143,8 @@ p:hover {
 
 /* Video Container */
 .vid video {
-  width: 85%;
-  height: 85%;
+  width: 55%;
+  height: 55%;
   padding: 1rem;
   display: flex;
   align-items: center;
