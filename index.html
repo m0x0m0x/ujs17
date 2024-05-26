@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>UJS17</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <!--
       Need a visual blank slate?
       Remove all code in `styles.css`!
     -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <!-- OG Section -->
+    <meta property="og:image" content="./src/x.jpg" />
+    <!-- // -->
+    <link rel="icon" type="image/jpg" href="./src/x.jpg" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script type="module" src="./src/script.js"></script>
+    <script type="module" src="./UTILS/text.js"></script>
   </head>
   <body>
     <nav>
@@ -17,7 +22,13 @@
       <a href="/page2.html">Other page</a>
     </nav>
     <main>
-      <h1>Home page</h1>
+      <h1>UJS16</h1>
+      <div class="vid">
+        <video autoplay loop controls muted>
+          <source src="./src/x1.mp4" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </main>
   </body>
 </html>
