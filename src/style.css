@@ -142,11 +142,14 @@ p:hover {
 }
 
 /* Video Container */
-.vid video {
-  width: 55%;
-  height: 55%;
+.vid {
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.vid video {
+  width: 55%;
+  height: 55%;
 }
