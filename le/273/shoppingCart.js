@@ -19,3 +19,14 @@ const totalPrice = 23;
 const totalQuantity = 23;
 
 export { totalPrice, totalQuantity as TQ };
+
+// Defailt exports
+
+export default function (product, quantity) {
+  cart.push({ product, quantity });
+  console.log(`
+    ----
+    ${product} = ${quantity}
+    -----
+    `);
+}
