@@ -7,9 +7,9 @@ Section for use with 274.js
 // Adding blocking code
 */
 
-console.log("start fetching users");
-await fetch("https://jsonplaceholder.typicode.com/users");
-console.log("DONE BASTRD");
+// console.log("start fetching users");
+// await fetch("https://jsonplaceholder.typicode.com/users");
+// console.log("DONE BASTRD");
 //===================================
 
 const shippingCost = 10;
