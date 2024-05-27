@@ -2,7 +2,7 @@
 console.log("Exporting panty - Exportedf from shoppingCard.js which is module");
 
 const shippingCost = 10;
-const cart = [];
+export const cart = [];
 
 export const addToCart = function (product, quantity) {
   cart.push({ product, quantity });

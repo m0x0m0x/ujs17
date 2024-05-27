@@ -16,5 +16,8 @@ console.log("Importing Pussy");
 // console.log(ShpCa.totalPrice);
 
 // import add, { addToCart, totalPrice as Price, TQ } from "./shoppingCart.js";
-import add from "./shoppingCart.js";
+import add, { cart } from "./shoppingCart.js";
 add("juice", 100);
+add("boob", 12);
+add("squt", 10);
+console.log(cart);
