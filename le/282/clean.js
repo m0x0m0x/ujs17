@@ -13,23 +13,24 @@ FuckedUpCode - Clearn shit below
 );
 
 var budget = [
-  { value: 250, description: "Sold old TV 📺", user: "jonas" },
-  { value: -45, description: "Groceries 🥑", user: "jonas" },
-  { value: 3500, description: "Monthly salary 👩‍💻", user: "jonas" },
-  { value: 300, description: "Freelancing 👩‍💻", user: "jonas" },
-  { value: -1100, description: "New iPhone 📱", user: "jonas" },
-  { value: -20, description: "Candy 🍭", user: "matilda" },
-  { value: -125, description: "Toys 🚂", user: "matilda" },
-  { value: -1800, description: "New Laptop 💻", user: "jonas" },
+  { value: 250, description: "Sold old TV 📺", user: "gina" },
+  { value: -45, description: "Groceries 🥑", user: "gina" },
+  { value: 3500, description: "Monthly salary 👩‍💻", user: "gina" },
+  { value: 300, description: "Freelancing 👩‍💻", user: "gina" },
+  { value: -1100, description: "New iPhone 📱", user: "gina" },
+  { value: -20, description: "Candy 🍭", user: "licq" },
+  { value: -125, description: "Toys 🚂", user: "licq" },
+  { value: -1800, description: "New Laptop 💻", user: "gina" },
 ];
 
 var limits = {
-  jonas: 1500,
-  matilda: 100,
+  gina: 1500,
+  licq: 100,
 };
 
+// Expenses function
 var add = function (value, description, user) {
-  if (!user) user = "jonas";
+  if (!user) user = "gina";
   user = user.toLowerCase();
 
   var lim;
