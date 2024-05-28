@@ -3,6 +3,15 @@ https://github.com/jonasschmedtmann/complete-javascript-course/blob/master/17-Mo
 - cleanthis pussy
 */
 
+console.log(
+  `
+%c---
+FuckedUpCode - Clearn shit below
+---
+`,
+  "color:red;font-size:14px"
+);
+
 var budget = [
   { value: 250, description: "Sold old TV 📺", user: "jonas" },
   { value: -45, description: "Groceries 🥑", user: "jonas" },
@@ -67,3 +76,14 @@ var bigExpenses = function (limit) {
   output = output.slice(0, -2); // Remove last '/ '
   console.log(output);
 };
+
+console.log(
+  `
+%c---
+----------------
+----------------
+----------------
+---
+`,
+  "color:red;font-size:14px"
+);
