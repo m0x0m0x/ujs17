@@ -3,6 +3,7 @@
     "start": "servor --reload"
   },
   "dependencies": {
+    "lodash-es": "^4.17.21",
     "servor": "^4.0.2"
   }
 }
